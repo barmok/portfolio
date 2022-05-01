@@ -28,7 +28,9 @@
     "@scullyio/platform-server": "^2.1.0",
     "@scullyio/scully": "^2.1.0",
     "@scullyio/scully-plugin-puppeteer": "^2.1.0",
-    "rxjs": "~7.5.0",
+    "bootstrap": "^5.1.3",
+    "rxjs": "^7.4.0",
+    "rxjs-compat": "^6.6.7",
     "ts-evaluator": "^0.1.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

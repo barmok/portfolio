@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Canterbury Roll",
+        "stack": {
+            "name": "javascript",
+            "iconClasses": "fab fa-vuejs"
+        },
+        "description": "Digitalization of a medieval role made available with a multi level view using high definition to make the the study and viewing of the document available online to researcher, historian and history enthousiast.",
+        "previewUrl": "http://canterburyroll.canterbury.ac.nz",
+        "featured": false
+    },
+    {
+        "name": "ProBTP Holiday booking website",
+        "stack": {
+            "name": "react",
+            "iconClasses": "fab fa-vuejs"
+        },
+        "description": "Remodeling of the holiday booking website, booking tunnel and overall look, using React component and MaterialUI.",
+        "previewUrl": "https://vacances.probtp.com/accueil",
+        "featured": false
+    }
+]
