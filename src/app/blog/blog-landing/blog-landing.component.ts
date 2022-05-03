@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
   templateUrl: './blog-landing.component.html',
   styleUrls: ['./blog-landing.component.css']
 })
-export class BlogLandingComponent implements OnInit {
+export class BlogLandingComponent implements OnInit{
   links$ = this.scully.available$.pipe(
     map(routes => routes.filter((route: ScullyRoute) => route.route.startsWith('/blog/')))
   );
@@ -15,9 +15,9 @@ export class BlogLandingComponent implements OnInit {
   respOptions = [
     { viewClasses: 'd-none d-md-flex', displayInColumn: false, titleClasses: 'display-3' },
     { viewClasses: 'd-flex d-md-none', displayInColumn: true, titleClasses: '' }
-  ]
+  ];
 
-  constructor(private scully: ScullyRoutesSErvices) { }
+  constructor(private scully: ScullyRoutesService) { }
 
   ngOnInit(): void {
   }

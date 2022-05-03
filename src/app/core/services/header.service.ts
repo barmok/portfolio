@@ -10,22 +10,22 @@ export class HeaderService {
 
   constructor(private router: Router) { }
 
-  isHome() {
-    return this.router.events.pipe(
-      filter(event => event instanceof NavigationEnd),
-      map(event => {
-        if(event instanceof NavigationEnd) {
-          if(this.checkForHomeUrl(event.url)){
-            return true;
+    isHome() {
+      return this.router.events.pipe(
+        filter(event => event instanceof NavigationEnd),
+        map(event => {
+          if(event instanceof NavigationEnd) {
+            if(this.checkForHomeUrl(event.url)){
+              return true;
+            }
           }
-        }
-        return false;
-      }),
-      startWith(this.checkForHomeUrl(this.router.url))
-  );
-}
+          return false;
+        }),
+        startWith(this.checkForHomeUrl(this.router.url))
+    );
+  }
 
   private checkForHomeUrl(url: string): boolean {
-    return url.startWith('/#') || url = '/';
+    return url.startsWith('/#') || url == '/';
   }
 }
