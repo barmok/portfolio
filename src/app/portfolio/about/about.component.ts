@@ -10,8 +10,8 @@ export class AboutComponent implements OnInit {
   bio$ = this.bioService.getBio();
 
   respOptions = [
-      { viewClasses: 'd-none d-md-flex', headingClass: 'display-3', userSmallHeadings:false},
-      { viewClasses: 'd-flex d-md-none', headingClass: '', userSmallHeadings:true}
+      { viewClasses: 'd-none d-lg-flex', headingClass: 'display-3', userSmallHeadings:false},
+      { viewClasses: 'd-flex d-lg-none', headingClass: '', userSmallHeadings:true}
 
   ];
 

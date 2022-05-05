@@ -15,8 +15,8 @@ export class ProjectsComponent implements OnInit {
   );
 
   respOptions = [
-    { viewClasses: 'd-none d-md-flex', displayInColumn: false, userSmallHeadings: false, titleClasses: 'display-3' },
-    { viewClasses: 'd-flex d-md-none', displayInColumn: true, userSmallHeadings: true, titleClasses: '' }
+    { viewClasses: 'd-none d-lg-flex', displayInColumn: false, userSmallHeadings: false, titleClasses: 'display-3' },
+    { viewClasses: 'd-flex d-lg-none', displayInColumn: true, userSmallHeadings: true, titleClasses: '' }
   ];
   constructor(private projectsService: ProjectsService, private headerService: HeaderService) { }
 

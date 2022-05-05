@@ -13,8 +13,8 @@ export class BlogLandingComponent implements OnInit{
   );
 
   respOptions = [
-    { viewClasses: 'd-none d-md-flex', displayInColumn: false, titleClasses: 'display-3' },
-    { viewClasses: 'd-flex d-md-none', displayInColumn: true, titleClasses: '' }
+    { viewClasses: 'd-none d-lg-flex', displayInColumn: false, titleClasses: 'display-3' },
+    { viewClasses: 'd-flex d-lg-none', displayInColumn: true, titleClasses: '' }
   ];
 
   constructor(private scully: ScullyRoutesService) { }

@@ -3,20 +3,50 @@
         "name": "Canterbury Roll",
         "stack": {
             "name": "javascript",
-            "iconClasses": "fab fa-vuejs"
+            "iconClasses": "fab fa-js"
         },
-        "description": "Digitalization of a medieval role made available with a multi level view using high definition to make the the study and viewing of the document available online to researcher, historian and history enthousiast.",
+        "description": "Interactive and Digital version of a medieval roll with detailed zooming from HD pictures making the study and viewing of the document available online to all.",
         "previewUrl": "http://canterburyroll.canterbury.ac.nz",
-        "featured": false
+        "featured": true
     },
     {
-        "name": "ProBTP Holiday booking website",
+        "name": "ProBTP Holiday booking",
         "stack": {
             "name": "react",
-            "iconClasses": "fab fa-vuejs"
+            "iconClasses": "fab fa-react"
         },
         "description": "Remodeling of the holiday booking website, booking tunnel and overall look, using React component and MaterialUI.",
-        "previewUrl": "https://vacances.probtp.com/accueil",
+        "previewUrl": "https://vacances.probtp.com",
+        "featured": true
+    },
+    {
+        "name": "ProBTP main page",
+        "stack": {
+            "name": "html, js and css",
+            "iconClasses": "fab fa-js"
+        },
+        "description": "Applying new graphic chart to numberous pages of the main company website.",
+        "previewUrl": "https://www.probtp.com",
+        "featured": true
+    },
+    {
+        "name": "MyMandrola mobile app",
+        "stack": {
+            "name": "react",
+            "iconClasses": "fab fa-react"
+        },
+        "description": "Building hybrid web mobile app sharing a homework base phsycological program for women with specific conditions.",
+        "sourceUrl": "https://github.com/barmok/fgcappreact",
+        "featured": true
+    },
+    {
+        "name": "Octogris and ZirkOSC",
+        "stack": {
+            "name": "C++",
+            "iconClasses": "fab fa-c++"
+        },
+        "description": "Adding control interface like joystick and leapmotion to existing DAW plugins at the GRIS in Montreal",
+        "sourceUrl": "https://github.com/GRIS-UdeM",
         "featured": false
     }
 ]

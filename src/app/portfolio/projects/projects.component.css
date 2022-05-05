@@ -6,6 +6,9 @@
     width: 290px;
     height: 250px;
 }
+.project-card p {
+    height: 120px;
+}
 
 .project-title {
     white-space: nowrap;
